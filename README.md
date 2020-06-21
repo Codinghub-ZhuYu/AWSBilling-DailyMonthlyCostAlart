@@ -1,5 +1,5 @@
 # AWSBilling-DailyMonthlyCostAlart
-This project will let you send alart based on your customized value of daily cost and monthly cost
+This project will let you send alart based on your customized value of daily cost and monthly cost in AWS China region, but it will smoothly be deploied to AWS GLB resion with very low effort.
 
 Background:
 Customer want to know their potential burst cost as soon as possible to lower the risk to pay a great amount of money at the billing time. AWS internal employees should also pay attention on their cost on AWS resource during the POC. But AWS has no good way to have alert on a daily and monthly (the same day cost last month vs current cost till today) basis. This solutions will give alert notification to account owners the potential risk according to the customized value such as the max money they can afford for one day and the monthl growth rate.
